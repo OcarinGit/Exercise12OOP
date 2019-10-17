@@ -1,5 +1,6 @@
 package com.exercise12oopshape.model;
 
+import java.lang.Math;
 public class Triangle extends Shape
 {
 	//Characteristics
@@ -21,9 +22,9 @@ public class Triangle extends Shape
 		return (base*height)/2;
 	}
 	
-	public double CalculatePerimeter(double base, double height, double hypotenuse)
+	public double CalculatePerimeter(double base, double height)
 	{
-		return base+height+hypotenuse;
+		return Math.sqrt(Math.pow(base, 2)+Math.pow(height, 2));
 	}
 	
 	//Getters and setters
@@ -43,4 +44,5 @@ public class Triangle extends Shape
 	{
 		this.height = height;
 	}
+	
 }
