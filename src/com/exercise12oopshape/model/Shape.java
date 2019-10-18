@@ -1,6 +1,6 @@
 package com.exercise12oopshape.model;
 
-public abstract class Shape implements Shapeable{
+public abstract class Shape implements Shapeable, Lineable{
 
 	@Override
 	public String Draw() {

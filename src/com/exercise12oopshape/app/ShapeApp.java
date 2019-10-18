@@ -3,6 +3,7 @@ package com.exercise12oopshape.app;
 import com.exercise12oopshape.model.Square;
 import com.exercise12oopshape.model.Triangle;
 import com.exercise12oopshape.model.Circle;
+import com.exercise12oopshape.model.IsoselesTriangle;
 import com.exercise12oopshape.model.Shape;
 import java.util.Scanner;
 
@@ -16,6 +17,7 @@ public class ShapeApp
 		Square square1 = new Square();
 		Circle circle1 = new Circle();
 		Triangle triangle1 = new Triangle();
+		
 		Shape miForma;
 		miForma = new Triangle();
 		miForma = new Circle();
@@ -23,6 +25,7 @@ public class ShapeApp
 		Square square2 = new Square(10.2);
 		Circle circle2 = new Circle(5.3);
 		Triangle triangle2 = new Triangle(5.4,6.8);
+		IsoselesTriangle triangle3 = new IsoselesTriangle();
 		
 		Scanner input = new Scanner(System.in);
 		
